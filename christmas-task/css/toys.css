@@ -1,0 +1,82 @@
+@import url(./reset.css);
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #192F2D;
+}
+
+.header-items {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+main {
+    background-color: #192F2D;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    padding: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-section-toys {
+    width: 446px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section-toys {}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #192F2D;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-logo-img {
+    width: 234px;
+    height: 87px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-link-github {
+    font-size: large;
+    font-family: Steppe;
+}
+
+.create-year {
+    font-size: large;
+    font-family: Steppe;
+    color: #FFFFFF;
+}

@@ -43,7 +43,13 @@ main {
     flex-direction: column;
 }
 
-.right-section-toys {}
+.right-section-toys {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 36px 36px;
+
+}
 
 footer {
     width: 100%;

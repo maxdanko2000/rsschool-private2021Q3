@@ -86,6 +86,17 @@ main {
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.btn-start:hover {
+    transition: 0.3s;
+    border: 2px solid lightseagreen;
+}
+
+.btn-start:focus {
+    transition: 0.2s;
+    border: 2px solid lightskyblue;
 }
 
 footer {

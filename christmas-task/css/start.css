@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('/christmas-task/assets/fonts/Steppe/Web-TT/Steppe.css');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bg-items {
+    display: flex;
+    position: absolute;
+    width: 946px;
+    justify-content: space-between;
+    margin-left: 416px;
+}
+
+.bg-item1 {
+    width: 418px;
+    height: 768px;
+    background: url(/christmas-task/assets/png/toy-bg.png);
+}
+
+.bg-item2 {
+    width: 246px;
+    height: 446px;
+    margin-top: 99px;
+    background: url(/christmas-task/assets/png/toy-bg2.png);
+}
+
+main {
+    width: 100%;
+    background: url(/christmas-task/assets/png/start-bg.png);
+}
+
+.main-content-wrapper {
+    display: flex;
+    padding: 387px 663px 155px 663px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    height: 416px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.help-granny {
+    width: 593px;
+    height: 249px;
+    text-align: center;
+
+    border: 2px solid #24C5DB26;
+    background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
+    backdrop-filter: blur(31px);
+    border-radius: 30px;
+}
+
+.help-granny-text {
+    font-family: Neucha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.btn-start {
+    width: 320px;
+    height: 54px;
+    border: 2px solid #24C5DB26;
+    background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
+    backdrop-filter: blur(31px);
+    border-radius: 30px;
+
+    font-family: Steppe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #192F2D;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-logo-img {
+    width: 234px;
+    height: 87px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-link-github {
+    font-size: large;
+    font-family: Steppe;
+}
+
+.create-year {
+    font-size: large;
+    font-family: Steppe;
+    color: #FFFFFF;
+}

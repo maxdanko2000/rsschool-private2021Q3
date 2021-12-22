@@ -205,6 +205,14 @@ main {
     margin-top: 24px;
 }
 
+.form-toy {
+    display: flex;
+    height: 72px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .form-toy-name {
     font-family: Steppe;
     font-style: normal;
@@ -216,7 +224,7 @@ main {
 }
 
 .year-count-section {
-    margin-top: 54px;
+    margin-top: 40px;
 }
 
 .count-toys-title {
@@ -348,8 +356,6 @@ main {
     margin-top: 18px;
 }
 
-.toy-count {}
-
 .toy-small-text {
     font-family: Steppe;
     font-style: normal;
@@ -443,7 +449,7 @@ footer {
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }

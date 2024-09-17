@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toys</title>
+    <link rel="stylesheet" href="/css/toys.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <ul class="header-items">
+          <li class="header-item">
+            <div class="volume"></div>
+          </li>
+          <li class="header-item">
+            <div class="snowflake"></div>
+          </li>
+          <li class="header-item">
+            <div class="search-toys">
+              <div class="search-toys-icon search-icon">
+                <input
+                  class="search-toys-input"
+                  type="text"
+                  placeholder="Поиск"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="header-item">
+            <h2 class="toys-text">Игрушки</h2>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <div class="main-container">
+          <div class="left-section-toys">
+            <div class="sort-section">
+              <h3 class="text sort-text">Сортировать</h3>
+              <select class="sort-list">
+                <option class="sort-list-item">По названию от А до Я</option>
+                <option class="sort-list-item">По названию от Я до А</option>
+                <option class="sort-list-item">
+                  По количеству по убыванию
+                </option>
+                <option class="sort-list-item">
+                  По количеству по возрастанию
+                </option>
+              </select>
+            </div>
+            <div class="categories-section">
+              <h3 class="categories-title">Категории</h3>
+              <div class="categories-checkbox">
+                <input class="checkbox-input" type="checkbox" />
+                <p class="checkbox-text">Все</p>
+              </div>
+            </div>
+            <div class="form-toys-section">
+              <p class="form-title-text">Форма</p>
+              <div class="forms-toys">
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/bell.png"
+                    alt="bell image"
+                  />
+                  <figcaption class="form-toy-name">Колокол</figcaption>
+                </div>
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/ball.png"
+                    alt="ball image"
+                  />
+                  <figcaption class="form-toy-name">Шар</figcaption>
+                </div>
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/pine.png"
+                    alt="pine image"
+                  />
+                  <figcaption class="form-toy-name">Шишка</figcaption>
+                </div>
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/star.png"
+                    alt="star image"
+                  />
+                  <figcaption class="form-toy-name">Звезда</figcaption>
+                </div>
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/snowflake-sort.png"
+                    alt="snowflake image"
+                  />
+                  <figcaption class="form-toy-name">Снежинка</figcaption>
+                </div>
+                <div class="form-toy">
+                  <img
+                    class="form-toy-img"
+                    src="/assets/png/bird_toy.png"
+                    alt="figure image"
+                  />
+                  <figcaption class="form-toy-name">Фигурка</figcaption>
+                </div>
+              </div>
+            </div>
+            <div class="year-count-section">
+              <div class="count-toys">
+                <p class="count-toys-title">Количество экземпляров</p>
+                <input class="count-toys-input" type="range" min="0" max="12" />
+                <div class="count-toys-labels">
+                  <label class="count-toys-title" for="">0</label>
+                  <label class="count-toys-title" for="">12</label>
+                </div>
+              </div>
+              <div class="year-toys">
+                <p class="count-toys-title">Год приобретения</p>
+
+                <input
+                  class="count-toys-input"
+                  type="range"
+                  min="1940"
+                  max="2021"
+                />
+                <div class="count-toys-labels">
+                  <label class="count-toys-title" for="">1940</label>
+                  <label class="count-toys-title" for="">2021</label>
+                </div>
+              </div>
+            </div>
+            <div class="color-section">
+              <p class="count-toys-title">Цвет</p>
+              <div class="color-btn-list">
+                <div class="color-btn white-btn"></div>
+                <div class="color-btn yellow-btn"></div>
+                <div class="color-btn red-btn"></div>
+                <div class="color-btn ltblue-btn"></div>
+                <div class="color-btn green-btn"></div>
+              </div>
+            </div>
+            <div class="size-section">
+              <p class="count-toys-title">Размер</p>
+              <div class="size-checkboxes">
+                <input class="inputs-check large-input" type="checkbox" />
+                <label class="toy-size-text" for="">Большой</label>
+                <input class="inputs-check middle-input" type="checkbox" />
+                <label class="toy-size-text" for="">Средний</label>
+                <input class="inputs-check small-input" type="checkbox" />
+                <label class="toy-size-text" for="">Маленький</label>
+              </div>
+            </div>
+            <div class="favorites-section">
+              <input class="inputs-check is-favorite" type="checkbox" />
+              <label class="count-toys-title" for="">Только любимые</label>
+            </div>
+            <div class="reset-btns">
+              <button class="reset-btn reset-filter">Сбросить фильтры</button>
+              <button class="reset-btn reset-settings">
+                Сбрость настройки
+              </button>
+            </div>
+          </div>
+          <div class="right-section-toys">
+            <div class="toys-list">
+              <div class="toys-item">
+                <h3 class="toy-name">Большой шар с рисунком Цветок</h3>
+                <div class="toy-img">
+                  <img
+                    class="img-of-toy"
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/christmas-task/assets/toys/1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="toy-characteristic">
+                  <div class="toy-count">
+                    <p class="toy-small-text toy-count-text">
+                      Количество: <label for="">...</label>
+                    </p>
+                  </div>
+                  <div class="purchase-year">
+                    <p class="toy-small-text purchase-year-text">
+                      Год покупки: <label for="">...</label>
+                    </p>
+                  </div>
+                  <div class="toy-form">
+                    <p class="toy-small-text toy-form-text">
+                      Форма игрушки: <label for="">...</label>
+                    </p>
+                  </div>
+                  <div class="toy-color">
+                    <p class="toy-small-text toy-color-text">
+                      Цвет игрушки: <label for="">...</label>
+                    </p>
+                  </div>
+                  <div class="toy-size">
+                    <p class="toy-small-text toy-size-text-content">
+                      Размeр игрушки: <label for="">...</label>
+                    </p>
+                  </div>
+                  <div class="is-favorite">
+                    <p class="toy-small-text is-favorite-text">
+                      Любимая: <label for="">...</label>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-content-wrapper">
+          <a class="footer-link-github" href="">maxdanko2000.github</a>
+          <p class="create-year">2021</p>
+          <a href="https://rs.school/js/">
+            <img
+              class="footer-logo-img"
+              src="/assets/img/rs_school_js_logo.svg"
+              alt="rss logo image"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="/toys.js"></script>
+  </body>
+</html>
